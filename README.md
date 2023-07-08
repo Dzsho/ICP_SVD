@@ -9,7 +9,7 @@ catkin_make
 **Launch**
 
 ```bash
-# set up session:
+# set up session:A
 source install/setup.bash
 # launch:
 roslaunch lidar_localization front_end.launch
