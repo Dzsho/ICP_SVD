@@ -1,13 +1,12 @@
-本作业旨在实现经典的激光里程计算法ICP/NDT.
+This assignment aims to implement the classical laser mileage calculation method ICP/NDT.
 
 ---
 
-
+**Build**
 ```bash
-# build
 catkin_make
 ```
-**启动**
+**Launch**
 
 ```bash
 # set up session:
@@ -15,15 +14,13 @@ source install/setup.bash
 # launch:
 roslaunch lidar_localization front_end.launch
 ```
-
+**Build**
 ```bash
-# play ROS bag, full KITTI:
-rosbag play kitti_2011_10_03_drive_0027_synced.bag
-
+# play ROS bag (for example KITTI):
+rosbag play YOUR_BAG #kitti_2011_10_03_drive_0027_synced.bag
 
 cd /workspace/assignments/02-lidar-odometry-basic/src/lidar_localization/slam_data/trajectory
 ```
-
 
 该目录下会输出:
 
